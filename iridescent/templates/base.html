@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 {% block head %}
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/iridescent.css" />
 {% endblock head %}
 
+<body>
 <div id=wrap>
 	<header>
 		<h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
@@ -43,3 +45,4 @@
 <footer>
 	{{ SITENAME }} &ndash; 2017.
 </footer>
+</body>
